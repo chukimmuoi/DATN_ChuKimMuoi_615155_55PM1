@@ -8,12 +8,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="libs1" level="project" />
-    <orderEntry type="library" name="libs" level="project" />
-    <orderEntry type="library" name="date4j" level="project" />
     <orderEntry type="library" name="libs" level="project" />
     <orderEntry type="library" name="libs1" level="project" />
     <orderEntry type="library" name="date4j" level="project" />
+    <orderEntry type="library" name="libs1" level="project" />
+    <orderEntry type="library" name="date4j" level="project" />
+    <orderEntry type="library" name="libs" level="project" />
     <orderEntry type="module" module-name="QuanLyTaiChinh" />
     <orderEntry type="module" module-name="QuanLyTaiChinh" />
   </component>

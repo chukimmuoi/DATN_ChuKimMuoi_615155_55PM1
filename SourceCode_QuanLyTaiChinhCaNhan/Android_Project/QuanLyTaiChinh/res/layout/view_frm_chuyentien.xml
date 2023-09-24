@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/xanhduong"
+    android:orientation="vertical"
+    android:padding="7dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/imgbtnQuayLai_CT"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:contentDescription="@string/quaylai"
+            android:src="@drawable/ic_quaylai" />
+
+        <TextView
+            android:id="@+id/tvTieuDe_CT"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@+id/imgbtnXong_CT"
+            android:layout_toRightOf="@+id/imgbtnQuayLai_CT"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:text="@string/chuyentienhoa"
+            android:textColor="@color/trang"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/imgbtnXong_CT"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="@+id/tvTieuDe_CT"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:contentDescription="@string/hoantat"
+            android:src="@drawable/ic_xong" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/trang"
+        android:orientation="vertical"
+        android:padding="3dp"
+        android:layout_marginTop="50dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:gravity="right|center"
+                android:text="@string/tu"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/etTuVi_CT"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/chonvi"
+                android:inputType="textEmailAddress"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:textColor="@color/tab_thunhap">
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearDenVi_CT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:gravity="right|center"
+                android:text="@string/den"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/etDenVi_CT"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/chonvi"
+                android:inputType="textEmailAddress"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:textColor="@color/tab_chitieu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearSoTien_CT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:gravity="right|center"
+                android:text="@string/sotienthuong"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/etSoTien_CT"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/sotien_GD"
+                android:inputType="textEmailAddress"
+                android:textSize="30sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+
+       <!--  <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:gravity="right|center"
+                android:text="@string/ghichu"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/etGhiChu_CT"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/themghichu"
+                android:inputType="textEmailAddress"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+        </LinearLayout> -->
+
+        <!-- <LinearLayout
+            android:id="@+id/linearChonNhom_CT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/imgAnhNhom_CT"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/anhchonnhom"
+                android:gravity="right|center"
+                android:src="@drawable/ic_khonganh" />
+
+            <EditText
+                android:id="@+id/etTenNhom_CT"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/chonnhom"
+                android:inputType="textEmailAddress"
+                android:textSize="15sp"
+                android:textStyle="normal|bold" />
+        </LinearLayout> -->
+
+        <LinearLayout
+            android:id="@+id/linearNgay_CT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:gravity="right|center"
+                android:text="@string/ngay"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+
+            <EditText
+                android:id="@+id/etNgay_CT"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/ngay"
+                android:inputType="textEmailAddress"
+                android:textSize="15sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

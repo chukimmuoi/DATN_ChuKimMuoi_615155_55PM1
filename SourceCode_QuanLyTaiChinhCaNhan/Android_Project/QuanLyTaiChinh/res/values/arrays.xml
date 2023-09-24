@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="nav_menu_items">
+        <item>Giao dịch</item>
+        <item>Danh sách giao dịch</item>
+        <item>Báo cáo</item>
+        <item>Sổ nợ</item>
+        
+        <item>Tài khoản</item>
+        <item>Thông báo</item>
+        <item>Đổi mật khẩu</item>
+        <item>Đăng xuất</item>
+        
+        <item>Quản lý</item>
+        <item>Ví</item>
+        <item>Nhóm thu - chi</item>
+        <item>Đối tác</item>
+        
+        <item>Lập kế hoạch</item>
+        <item>Ngân sách</item>
+        <item>Công việc</item>
+    </string-array>       
+</resources>

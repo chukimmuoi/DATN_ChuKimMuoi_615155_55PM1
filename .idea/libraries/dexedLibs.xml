@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SourceCode_QuanLyTaiChinhCaNhan/Android_Project/QuanLyTaiChinh/bin/dexedLibs/mpandroidchartlibrary-1-7-4-5021cce488a42272928c0404edfe73fc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SourceCode_QuanLyTaiChinhCaNhan/Android_Project/QuanLyTaiChinh/bin/dexedLibs/android-support-v7-appcompat-a66d0ad5aa0817c89c5d8d5544bf4e0c.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SourceCode_QuanLyTaiChinhCaNhan/Android_Project/QuanLyTaiChinh/bin/dexedLibs/android-support-v4-55055180972608c2663057b62c8ea0c9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SourceCode_QuanLyTaiChinhCaNhan/Android_Project/QuanLyTaiChinh/bin/dexedLibs/library-b842abd5ef772f2d99ccde57c369d5ae.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SourceCode_QuanLyTaiChinhCaNhan/Android_Project/QuanLyTaiChinh/bin/dexedLibs/android-support-v7-appcompat-41a3a26853e50adb566c379fc73cfdc7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SourceCode_QuanLyTaiChinhCaNhan/Android_Project/QuanLyTaiChinh/bin/dexedLibs/date4j-420490eaf46e345c57031574ece92e29.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

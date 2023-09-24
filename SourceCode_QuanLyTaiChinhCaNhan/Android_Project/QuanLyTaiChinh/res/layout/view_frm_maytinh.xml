@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/xanhduong"
+    android:orientation="vertical"
+    android:padding="7dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/imgbtnQuayLai_MT"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:contentDescription="@string/quaylai"
+            android:src="@drawable/ic_quaylai" />
+
+        <TextView
+            android:id="@+id/tvTieuDe_MT"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@+id/imgbtnQuayLai_MT"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:text="@string/sotien"
+            android:textColor="@color/trang"
+            android:textSize="25sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/trang"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/etSoTien_MT"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@color/trang"
+            android:gravity="center"
+            android:hint="@string/d"
+            android:textColor="@color/mauden"
+            android:textSize="30sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:padding="1dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp" >
+
+                <Button
+                    android:id="@+id/btnClear_MT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/tab_chitieu"
+                    android:onClick="ClickButton"
+                    android:text="@string/cle"
+                    android:textColor="@color/trang"
+                    android:textSize="20sp"
+                    android:textStyle="bold|normal" />
+
+                <Button
+                    android:id="@+id/btnChia_MT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/xanhduong"
+                    android:onClick="ClickButton"
+                    android:text="@string/chia"
+                    android:textColor="@color/trang"
+                    android:textSize="20sp"
+                    android:textStyle="bold|normal" />
+
+                <Button
+                    android:id="@+id/btnNhan_MT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/xanhduong"
+                    android:onClick="ClickButton"
+                    android:text="@string/nhan"
+                    android:textColor="@color/trang"
+                    android:textSize="20sp"
+                    android:textStyle="bold|normal" />
+
+                <Button
+                    android:id="@+id/btnDel_MT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/maunghe"
+                    android:onClick="ClickButton"
+                    android:text="@string/del"
+                    android:textColor="@color/trang"
+                    android:textSize="20sp"
+                    android:textStyle="bold|normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp" >
+
+                <Button
+                    android:id="@+id/btn7_MT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/xanhduong"
+                    android:onClick="ClickButton"
+                    android:text="@string/bay"
+                    android:textColor="@color/trang"
+                    android:textSize="20sp"
+                    android:textStyle="bold|normal" />
+
+                <Button
+                    android:id="@+id/btn8_MT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/xanhduong"
+                    android:onClick="ClickButton"
+                    android:text="@string/tam"
+                    android:textColor="@color/trang"
+                    android:textSize="20sp"
+                    android:textStyle="bold|normal" />
+
+                <Button
+                    android:id="@+id/btn9_MT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/xanhduong"
+                    android:onClick="ClickButton"
+                    android:text="@string/chin"
+                    android:textColor="@color/trang"
+                    android:textSize="20sp"
+                    android:textStyle="bold|normal" />
+
+                <Button
+                    android:id="@+id/btnTru_MT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/xanhduong"
+                    android:onClick="ClickButton"
+                    android:text="@string/tru"
+                    android:textColor="@color/trang"
+                    android:textSize="20sp"
+                    android:textStyle="bold|normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="65dp" >
+
+                <Button
+                    android:id="@+id/btn6_MT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/xanhduong"
+                    android:onClick="ClickButton"
+                    android:text="@string/sau"
+                    android:textColor="@color/trang"
+                    android:textSize="20sp"
+                    android:textStyle="bold|normal" />
+
+                <Button
+                    android:id="@+id/btn5_MT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/xanhduong"
+                    android:onClick="ClickButton"
+                    android:text="@string/nam"
+                    android:textColor="@color/trang"
+                    android:textSize="20sp"
+                    android:textStyle="bold|normal" />
+
+                <Button
+                    android:id="@+id/btn4_MT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/xanhduong"
+                    android:onClick="ClickButton"
+                    android:text="@string/bon"
+                    android:textColor="@color/trang"
+                    android:textSize="20sp"
+                    android:textStyle="bold|normal" />
+
+                <Button
+                    android:id="@+id/btnCong_MT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/xanhduong"
+                    android:onClick="ClickButton"
+                    android:text="@string/cong"
+                    android:textColor="@color/trang"
+                    android:textSize="20sp"
+                    android:textStyle="bold|normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="130dp"
+                    android:layout_weight="0.75"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp" >
+
+                        <Button
+                            android:id="@+id/btn1_MT"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/xanhduong"
+                            android:onClick="ClickButton"
+                            android:text="@string/mot"
+                            android:textColor="@color/trang"
+                            android:textSize="20sp"
+                            android:textStyle="bold|normal" />
+
+                        <Button
+                            android:id="@+id/btn2_MT"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/xanhduong"
+                            android:onClick="ClickButton"
+                            android:text="@string/hai"
+                            android:textColor="@color/trang"
+                            android:textSize="20sp"
+                            android:textStyle="bold|normal" />
+
+                        <Button
+                            android:id="@+id/btn3_MT"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/xanhduong"
+                            android:onClick="ClickButton"
+                            android:text="@string/ba"
+                            android:textColor="@color/trang"
+                            android:textSize="20sp"
+                            android:textStyle="bold|normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp" >
+
+                        <Button
+                            android:id="@+id/btn0_MT"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/xanhduong"
+                            android:onClick="ClickButton"
+                            android:text="@string/khong"
+                            android:textColor="@color/trang"
+                            android:textSize="20sp"
+                            android:textStyle="bold|normal" />
+
+                        <Button
+                            android:id="@+id/btn000_MT"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/xanhduong"
+                            android:onClick="ClickButton"
+                            android:text="@string/nghin"
+                            android:textColor="@color/trang"
+                            android:textSize="20sp"
+                            android:textStyle="bold|normal" />
+
+                        <Button
+                            android:id="@+id/btnThapPhan_MT"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_margin="1dp"
+                            android:layout_weight="1"
+                            android:background="@color/xanhduong"
+                            android:onClick="ClickButton"
+                            android:text="@string/thapphan"
+                            android:textColor="@color/trang"
+                            android:textSize="20sp"
+                            android:textStyle="bold|normal" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnBang_MT"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:layout_weight="0.25"
+                    android:background="@color/tab_thunhap"
+                    android:onClick="ClickButton"
+                    android:text="@string/bang"
+                    android:textColor="@color/trang"
+                    android:textSize="20sp"
+                    android:textStyle="bold|normal" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

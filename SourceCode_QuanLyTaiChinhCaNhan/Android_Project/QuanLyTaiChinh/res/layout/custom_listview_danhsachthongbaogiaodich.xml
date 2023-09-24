@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trang"
+    android:gravity="center"
+    android:padding="7dp">
+
+        <ImageView
+            android:id="@+id/imgAnhNhom_CL_DSTBGD"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_khonganh"
+            android:contentDescription="@string/anhnhom" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp" >
+
+            <EditText
+                android:id="@+id/tvGhiChu_CL_DSTBGD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:textStyle="normal"
+                android:textSize="15sp"
+                android:textColor="@color/xanhduong"
+                android:background="@null"
+                android:focusable="false"
+				android:focusableInTouchMode="false"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp" >
+
+                <TextView
+                    android:id="@+id/tvNgayThang_CL_DSTBGD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="normal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tvSoTien_CL_DSTBGD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:textStyle="normal|bold"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

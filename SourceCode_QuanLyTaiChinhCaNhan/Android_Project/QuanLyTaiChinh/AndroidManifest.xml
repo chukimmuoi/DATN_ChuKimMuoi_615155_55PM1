@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dhxd.chukimmuoi.qltc"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- Cho phép kết nối mạng -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Cho phép vẽ hình -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+    <!-- Cho phép kết nối mạng -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="dhxd.chukimmuoi.qltc.View_Navigation_QLTC"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="View_frm_DangNhap"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_DangKy"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_QuenMatKhau"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_DoiMatKhau"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_ChonAnh"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_QuanLyNhom"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="DanhSachNhomFragment"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_QuanLyDoiTac"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_QuanLyQuy"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_MayTinh"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_QuanLyGiaoDich"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_DanhSachNhom_Page_Chon"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_ChuyenTien"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_QuanLyKeHoachCongViec"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_QuanLyKeHoachNganSach"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="View_frm_KeHoachNganSachChiTiet"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_BaoCao_BaoCaoThang"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_BaoCao_DanhSachGiaoDich"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_BaoCao_TongQuatNam"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="View_frm_BaoCao_DanhSachGiaoDich_Thang"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

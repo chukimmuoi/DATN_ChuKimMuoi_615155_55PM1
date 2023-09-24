@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/trang"
+    android:padding="7dp"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xacnhanxoa"
+        android:textColor="@color/mauden"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/imgbtnXoa_CD_XNX"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/xacnhan"
+            android:src="@drawable/ic_btn_xoa"
+			android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/imgbtnHoanTac_CD_XNX"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:contentDescription="@string/hoantac"
+            android:src="@drawable/ic_brn_huy"
+            android:background="@null" />
+
+    </LinearLayout>
+
+</LinearLayout>

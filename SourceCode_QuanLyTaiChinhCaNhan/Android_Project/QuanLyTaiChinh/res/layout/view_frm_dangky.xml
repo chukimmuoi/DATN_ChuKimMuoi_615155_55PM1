@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/xanhduong"
+    android:orientation="vertical"
+    android:padding="7dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/btnQuayLai_DK"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:contentDescription="@string/quaylai"
+            android:src="@drawable/ic_quaylai" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_toRightOf="@+id/btnQuayLai_DK"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:text="@string/dangky"
+            android:textColor="@color/trang"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/trang"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <EditText
+            android:id="@+id/etHoTen_DK"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:hint="@string/hoten"
+            android:inputType="text"
+            android:padding="5dp"
+            android:radius="3dp"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="@color/mauden"  >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etEmail_DK"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:radius="3dp"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="@color/mauden"  >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etMatKhau_DK"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:hint="@string/matkhau"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:radius="3dp"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="@color/mauden"  />
+
+        <Button
+            android:id="@+id/btnDangKy_DK"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/xanhduong"
+            android:padding="5dp"
+            android:text="@string/dangky"
+            android:textColor="@color/trang"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+</LinearLayout>

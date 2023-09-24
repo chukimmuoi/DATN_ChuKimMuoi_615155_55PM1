@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"></string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="header">User</string>
+    <string name="clear"></string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="done">Done</string>
+    <string name="discard">Discard</string>
+    <string name="search">Tìm kiếm</string>
+    <string name="update">Update</string>
+    <string name="drawer_open">Open drawer navigation</string>
+    <string name="drawer_close">Navigation drawer Close</string>
+
+    <!-- Const text -->
+    <string name="dangnhap">ĐĂNG NHẬP</string>
+    <string name="email">E-mail</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="dangky">ĐĂNG KÝ</string>
+    <string name="quenmatkhau">QUÊN MẬT KHẨU</string>
+    <string name="hoten">Họ và tên</string>
+    <string name="guimatkhau">Bạn hãy nhập địa chỉ e-mail đã đăng ký, chúng tôi sẽ gửi lại mật khẩu.</string>
+    <string name="doimatkhau">ĐỔI MẬT KHẨU</string>
+    <string name="matkhaucu">Mật khẩu cũ</string>
+    <string name="matkhaumoi">Mật khẩu mới</string>
+    <string name="quaylai">Quay lại</string>
+    <string name="hoantat">Hoàn tất</string>
+    <string name="quy">Quỹ</string>
+    <string name="sotienco">Số tiền có</string>
+    <string name="tenquy">Tên quỹ</string>
+    <string name="sotien">SỐ TIỀN</string>
+	<string name="tennhom">Tên nhóm</string>
+	<string name="loai">Loại</string>
+	<string name="khonganhnhom">Không ảnh nhóm</string>
+	<string name="emailbanbe">Địa chỉ email bạn bè</string>
+	<string name="themban">Thêm bạn</string>
+	<string name="moiquanhe">Mối quan hệ</string>
+	
+	<string name="anhchon">Ảnh chọn</string>
+	<string name="chonanh">CHỌN ẢNH</string>
+	
+	<string name="anhnhom">Ảnh nhóm</string>
+	<string name="thunhap">THU NHẬP</string>
+	<string name="chitieu">CHI TIÊU</string>
+	<string name="themmoi">+</string>
+	<string name="timkiem">Tìm kiếm</string>
+	
+	<string name="xacnhanxoa">Bạn có thật sự muốn xóa dữ liệu này?</string>
+	<string name="xacnhan">Xác nhận</string>
+	<string name="hoantac">Hoàn tác</string>
+	
+	<string name="quytong">QUỸ TỔNG</string>
+	<string name="anhvitong">Ảnh ví tổng</string>
+	<string name="anhvi">Ảnh ví</string>
+	
+	<string name="del">Del</string>
+	<string name="cle">Clear</string>
+	<string name="nhan">x</string>
+	<string name="chia">/</string>
+	<string name="nghin">000</string>
+	<string name="khong">0</string>
+	<string name="mot">1</string>
+	<string name="hai">2</string>
+	<string name="ba">3</string>
+	<string name="bon">4</string>
+	<string name="nam">5</string>
+	<string name="sau">6</string>
+	<string name="bay">7</string>
+	<string name="tam">8</string>
+	<string name="chin">9</string>
+	<string name="thapphan">.</string>
+	<string name="bang">=</string>
+	<string name="cong">+</string>
+	<string name="tru">-</string>
+	<string name="d">đ</string>
+	
+	<string name="chonloaigiaodich">Mời bạn chọn loại giao dịch để tiếp tục.</string>
+	<string name="anhthunhaptron">Ảnh thu nhập tròn</string>
+	<string name="anhchitieutron">Ảnh chi tiêu tròn</string>
+	<string name="anhchovay">Ảnh cho vay</string>
+	<string name="anhdivay">Ảnh đi vay</string>
+	<string name="thunhapdialog">Thu nhập</string>
+	<string name="chitieudialog">Chi tiêu</string>
+	<string name="chovay">Cho vay</string>
+	<string name="divay">Đi vay</string>
+	
+	<string name="anhchonnhom">Ảnh chọn nhóm</string>
+	<string name="anhsotien">Ảnh số tiền</string>
+	<string name="anhghichu">Ảnh ghi chú</string>
+	<string name="anhbanbe">Ảnh bạn bè</string>
+	<string name="chonnhom">Chọn nhóm</string>
+	<string name="sotien_GD">0 đ</string>
+	<string name="ghichu">Ghi chú</string>
+	<string name="voi">Với</string>
+	<string name="vi">VÍ</string>
+	<string name="ngaytra">Ngày trả</string>
+	<string name="tienlai">Tiền lãi</string>
+	<string name="khongthulai">KHÔNG THU LÃI</string>
+	<string name="chonvi">Chọn ví</string>
+	
+	<string name="canhbaoVihettien">Ví bạn chọn không đủ tiền để thực hiện giao dịch. Hãy chọn chức năng bên dưới.</string>
+	<string name="tieptuc">Tiếp tục</string>
+	<string name="chuyentien">Chuyển tiền</string>
+	<string name="huybo">Hủy bỏ</string>
+	
+	<string name="chuyentienhoa">CHUYỂN TIỀN</string>
+	<string name="tu">Từ</string>
+	<string name="den">Đến</string>
+	<string name="sotienthuong">Số tiền</string>
+	<string name="ngay">Ngày</string>
+	<string name="themghichu">Thêm ghi chú</string>
+	
+	<string name="tongquan">TỔNG QUAN</string>
+	<string name="chamvaodexembaocaodaydu">Chạm vào để xem báo cáo đầy đủ</string>
+	<string name="tong">TỔNG</string>
+	
+	<string name="ngaybatdau">Ngày thực hiện</string>
+	<string name="ngayketthuc">Ngày kết thúc</string>
+	
+	<string name="tongcong">TỔNG CỘNG</string>
+	<string name="danhsachchitiet">DANH SÁCH CHI TIẾT</string>
+	<string name="danhsachgiaodich">DANH SÁCH GIAO DỊCH</string>
+	<string name="congnam">Cộng năm</string>
+	<string name="trunam">Trừ năm</string>
+	<string name="baocaonam">BÁO CÁO NĂM</string>
+</resources>

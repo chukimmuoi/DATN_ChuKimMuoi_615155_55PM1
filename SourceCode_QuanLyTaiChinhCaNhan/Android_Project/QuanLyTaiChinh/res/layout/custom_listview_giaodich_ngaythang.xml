@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trang"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:background="@color/xanhduong" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp" >
+
+        <TextView
+            android:id="@+id/tvNgay_CL_GD_NT"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textColor="@color/xanhduong"
+            android:textSize="40sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="3dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvThu_CL_GD_NT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:textColor="@color/mauden"
+                    android:textSize="13sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/tvTienTrongNgay_CL_GD_NT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:gravity="right"
+                    android:textSize="18sp"
+                    android:textStyle="normal|bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvThangNam_CL_GD_NT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:background="@color/xanhduong" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp" >
+
+        <ImageView
+            android:id="@+id/imgAnhNhom_CL_GD_NT"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/anhnhom"
+            android:src="@drawable/ic_khonganh" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="3dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvTenNhom_CL_GD_NT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:textColor="@color/mauden"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/tvSoTien_CL_GD_NT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:gravity="right"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/tvGhiChu_CL_GD_NT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/mautim"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:inputType="textEmailAddress"
+                android:background="@null"
+                android:focusable="false"
+				android:focusableInTouchMode="false" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

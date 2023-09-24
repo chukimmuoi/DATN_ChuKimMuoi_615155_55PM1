@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/trang"
+    android:padding="7dp"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/canhbaoVihettien"
+        android:textSize="20sp"
+        android:textColor="@color/mauden"
+        android:textStyle="normal"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" >
+
+        <Button
+            android:id="@+id/btnTiepTuc_CD_CQ"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/tieptuc"
+            android:background="@color/tab_chitieu"
+            android:textColor="@color/trang"
+            android:textStyle="normal|bold"/>
+
+        <!-- <Button
+            android:id="@+id/btnChuyenQuy_CD_CQ"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/chuyentien"
+            android:background="@color/tab_thunhap"
+            android:textColor="@color/trang"
+            android:textStyle="normal|bold"/> -->
+
+        <Button
+            android:id="@+id/btnHuyBo_CD_CQ"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/huybo"
+			 android:background="@color/tab_thunhap"
+			android:textColor="@color/trang"
+			android:textStyle="normal|bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

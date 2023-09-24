@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trang"
+    android:orientation="vertical"
+    android:padding="7dp" >
+
+    <EditText
+        android:id="@+id/tvNoiDung_CL_DSTBBB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:textColor="@color/xanhduong"
+        android:focusable="false"
+		android:focusableInTouchMode="false"
+		android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/tvEmail_CL_DSTBBB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="13sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/tab_thunhap" />
+
+</LinearLayout>

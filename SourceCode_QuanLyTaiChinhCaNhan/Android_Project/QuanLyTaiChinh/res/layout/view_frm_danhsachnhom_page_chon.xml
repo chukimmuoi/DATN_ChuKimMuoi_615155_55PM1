@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/xanhduong" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/imgbtnQuayLai_DSN_P_C"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:contentDescription="@string/quaylai"
+            android:src="@drawable/ic_quaylai" />
+
+        <TextView
+            android:id="@+id/tvTieuDe_DSN_P_C"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/imgbtnQuayLai_DSN_P_C"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="@color/trang"
+            android:textSize="25sp"
+            android:text="@string/chonnhom"
+            android:layout_marginRight="50dp" />
+
+        <!-- <ImageButton
+            android:layout_toLeftOf="@+id/imgbtnXong_DSN_P_C"
+            android:id="@+id/imgbtnXong_DSN_P_C"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="@+id/tvTieuDe_DSN_P_C"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:contentDescription="@string/hoantat"
+            android:src="@drawable/ic_xong" /> -->
+    </RelativeLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpPage_DSN_P_C"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="50dp" >
+
+        <android.support.v4.view.PagerTabStrip
+            android:id="@+id/tabTieuDe_DSN_P_C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@color/xanhduong"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:textAppearance="@style/tab_tieude"
+            android:textColor="@color/trang"
+            android:textSize="20sp" />
+    </android.support.v4.view.ViewPager>
+
+    <Button
+        android:id="@+id/btnThemNhom_DSN_P_C"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="@string/themmoi"
+        android:textSize="50sp"
+        android:textStyle="normal"
+        style="@style/btnStyleOrange" />
+
+</RelativeLayout>

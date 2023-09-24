@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/xanhduong"
+    android:orientation="vertical"
+    android:padding="7dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/imgbtnQuayLai_QLN"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:contentDescription="@string/quaylai"
+            android:src="@drawable/ic_quaylai" />
+
+        <TextView
+            android:id="@+id/tvTieuDe_QLN"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@+id/imgbtnXong_QLN"
+            android:layout_toRightOf="@+id/imgbtnQuayLai_QLN"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="@color/trang"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/imgbtnXong_QLN"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="@+id/tvTieuDe_QLN"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:contentDescription="@string/hoantat"
+            android:src="@drawable/ic_xong" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/trang"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <ImageView
+                android:id="@+id/imgbtnAnhNhom_QLN"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/khonganhnhom"
+                android:src="@drawable/ic_khonganh"
+                android:background="@null" />
+
+            <EditText
+                android:id="@+id/etTenNhom_QLN"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dp"
+                android:hint="@string/tennhom"
+                android:textSize="20sp"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/loai"
+                android:src="@drawable/ic_loai" />
+
+           <!--  <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dp"
+                android:hint="@string/loai"
+                android:textSize="20sp"
+                android:padding="5dp" /> -->
+            <Spinner
+                android:id="@+id/spinnLoai_QLN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trang"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/xanhduong" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp" >
+
+        <TextView
+            android:id="@+id/tvTieuDe_CL_BDT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:textColor="@color/xanhduong"/>
+
+        <TextView
+            android:id="@+id/tvSoTienThuChi_CL_BDT"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"/>
+
+    </LinearLayout>
+    
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/xanhduong" />
+
+    <ListView
+        android:id="@+id/listview_bieudotron"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="7dp" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tvTieuDeDuoi_CL_BDT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:textColor="@color/xanhduong"
+        android:text="@string/danhsachchitiet"/>
+
+</LinearLayout>

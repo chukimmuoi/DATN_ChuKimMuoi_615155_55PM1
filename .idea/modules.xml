@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/DATN_ChuKimMuoi_615155_55PM1.iml" filepath="$PROJECT_DIR$/.idea/DATN_ChuKimMuoi_615155_55PM1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SourceCode_QuanLyTaiChinhCaNhan/Android_Project/QuanLyTaiChinh/QuanLyTaiChinh.iml" filepath="$PROJECT_DIR$/SourceCode_QuanLyTaiChinhCaNhan/Android_Project/QuanLyTaiChinh/QuanLyTaiChinh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SourceCode_QuanLyTaiChinhCaNhan/Android_Project/appcompat_v7/appcompat_v7.iml" filepath="$PROJECT_DIR$/SourceCode_QuanLyTaiChinhCaNhan/Android_Project/appcompat_v7/appcompat_v7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SourceCode_QuanLyTaiChinhCaNhan/Android_Project/library/library.iml" filepath="$PROJECT_DIR$/SourceCode_QuanLyTaiChinhCaNhan/Android_Project/library/library.iml" />
+    </modules>
+  </component>
+</project>

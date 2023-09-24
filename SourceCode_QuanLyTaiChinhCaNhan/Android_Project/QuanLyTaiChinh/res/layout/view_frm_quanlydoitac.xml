@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/xanhduong"
+    android:orientation="vertical"
+    android:padding="7dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/imgbtnQuayLai_QLDT"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:contentDescription="@string/quaylai"
+            android:src="@drawable/ic_quaylai" />
+
+        <TextView
+            android:id="@+id/tvTieuDe_QLDT"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@+id/imgbtnXong_QLDT"
+            android:layout_toRightOf="@+id/imgbtnQuayLai_QLDT"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="@color/trang"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/imgbtnXong_QLDT"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="@+id/tvTieuDe_QLDT"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:contentDescription="@string/hoantat"
+            android:src="@drawable/ic_xong" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/trang"
+            android:padding="5dp" >
+
+            <ImageView
+                android:id="@+id/ImageView1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@null"
+                android:contentDescription="@string/themban"
+                android:src="@drawable/ic_email" />
+
+            <EditText
+                android:id="@+id/etEmail_QLDT"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dp"
+                android:hint="@string/emailbanbe"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/trang"
+            android:padding="5dp" >
+
+            <ImageView
+                android:id="@+id/ImageView2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@null"
+                android:contentDescription="@string/themban"
+                android:src="@drawable/ic_quanhe" />
+
+            <EditText
+                android:id="@+id/etQuanHe_QLDT"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dp"
+                android:hint="@string/moiquanhe"
+                android:inputType="textEmailAddress"
+                android:padding="5dp"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

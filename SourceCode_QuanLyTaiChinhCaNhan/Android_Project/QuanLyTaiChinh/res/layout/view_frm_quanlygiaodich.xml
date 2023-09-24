@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/xanhduong"
+    android:orientation="vertical"
+    android:padding="7dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:gravity="center_vertical" >
+
+        <ImageButton
+            android:id="@+id/imgbtnQuayLai_QLGD"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:contentDescription="@string/quaylai"
+            android:src="@drawable/ic_quaylai" />
+
+        <TextView
+            android:id="@+id/tvTieuDe_QLGD"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_toLeftOf="@+id/imgbtnXong_QLGD"
+            android:layout_toRightOf="@+id/imgbtnQuayLai_QLGD"
+            android:gravity="center"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:textColor="@color/trang"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/imgbtnXong_QLGD"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="@+id/tvTieuDe_QLGD"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:contentDescription="@string/hoantat"
+            android:src="@drawable/ic_xong" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/trang"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/imgviewAnhNhom_QLGD"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/anhchonnhom"
+                        android:src="@drawable/ic_khonganh" />
+
+                    <EditText
+                        android:id="@+id/etTenNhom_QLGD"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="@string/chonnhom"
+                        android:inputType="textEmailAddress"
+                        android:textSize="30sp"
+                        android:textStyle="normal" >
+
+                        <requestFocus />
+                    </EditText>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/imgviewAnhTien_QLGD"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/anhsotien"
+                        android:src="@drawable/ic_khonganh" />
+
+                    <EditText
+                        android:id="@+id/etSoTien_QLGD"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="@string/sotien_GD"
+                        android:inputType="textEmailAddress"
+                        android:textSize="30sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/anhghichu"
+                        android:src="@drawable/ic_ghichu" />
+
+                    <EditText
+                        android:id="@+id/etGhiChu_QLGD"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="@string/ghichu"
+                        android:inputType="textEmailAddress"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/anhbanbe"
+                        android:src="@drawable/ic_themban" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/etBanBe_QLGD"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="@string/voi"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/mauden"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:baselineAligned="false" >
+
+                    <LinearLayout
+                        android:id="@+id/linearlayoutChonNgayThang_QLGD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="top|center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tvThu_QLGD"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/tab_thunhap"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:id="@+id/tvNgay_QLGD"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/tab_chitieu"
+                            android:textSize="50sp"
+                            android:textStyle="normal" />
+
+                        <TextView
+                            android:id="@+id/tvThangNam_QLGD"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/tab_thunhap"
+                            android:textSize="15sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearlayoutChonVi_QLGD"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="top|center"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/vi"
+                            android:textColor="@color/xanhduong"
+                            android:textSize="15sp"
+                            android:textStyle="normal|bold" />
+
+                        <TextView
+                            android:id="@+id/tvTenQuy_QLGD"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/chonvi"
+                            android:textColor="@color/mauden"
+                            android:textSize="20sp"
+                            android:textStyle="normal|bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearVayMuon_QLGD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/trang"
+                android:orientation="vertical"
+                android:padding="3dp" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/anhsotien"
+                        android:src="@drawable/ic_ngaytra" />
+
+                    <EditText
+                        android:id="@+id/etNgayTra_QLGD"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="@string/ngaytra"
+                        android:inputType="textEmailAddress"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnTinhLai_QLGD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@color/tab_chitieu"
+                    android:padding="7dp"
+                    android:text="@string/khongthulai"
+                    android:textColor="@color/trang"
+                    android:textSize="15sp"
+                    android:textStyle="bold|normal" />
+
+                <LinearLayout
+                    android:id="@+id/linearTienLai_QLGD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/anhsotien"
+                        android:src="@drawable/ic_tienlai" />
+
+                    <EditText
+                        android:id="@+id/etTienLai_QLGD"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:hint="@string/tienlai"
+                        android:inputType="textEmailAddress"
+                        android:textSize="15sp"
+                        android:textStyle="normal" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearHanTraLai_QLGD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/anhsotien"
+                        android:src="@drawable/ic_hantralai" />
+
+                    <Spinner
+                        android:id="@+id/spinnHanTraLai_QLGD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/trang"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="7dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/trang" >
+
+        <ImageView
+            android:id="@+id/imgAnhNhom_CL_GD"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_khonganh"
+            android:contentDescription="@string/anhnhom" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="3dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvTenNhom_CL_GD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.25"
+                    android:textColor="@color/mauden"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/tvSoTien_CL_GD"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.75"
+                    android:gravity="right"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/tvGhiChu_CL_GD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/mautim"
+                android:textSize="12sp"
+                android:textStyle="normal"
+                android:inputType="textEmailAddress"
+                android:background="@null"
+                android:focusable="false"
+				android:focusableInTouchMode="false" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

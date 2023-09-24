@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="7dp"
+    android:background="@color/xanhduong" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="5dp" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_quytong"
+            android:contentDescription="@string/anhvitong" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginRight="40dp">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/quytong"
+                android:gravity="center"
+                android:layout_marginBottom="2dp"
+                android:textStyle="normal|bold"
+                android:textColor="@color/trang" />
+
+            <TextView
+                android:id="@+id/tvTongTien_DSQ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:textStyle="bold|normal"
+                android:textColor="@color/trang"
+                android:background="@color/trangxanh"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvDanhSachQuy_DSQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="@color/trang">
+    </ListView>
+
+</LinearLayout>

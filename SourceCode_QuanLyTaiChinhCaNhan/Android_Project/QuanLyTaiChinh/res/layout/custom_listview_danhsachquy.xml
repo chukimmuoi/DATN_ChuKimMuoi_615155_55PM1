@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center" 
+    android:background="@color/trang"
+    android:layout_margin="2dp">
+
+    <ImageView
+        android:id="@+id/imgviewAnhQuy_CL_DSQ"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_khonganh"
+        android:contentDescription="@string/anhvi" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/trang"
+        android:padding="7dp"
+        android:gravity="center"
+        android:layout_marginLeft="5dp" >
+
+        <TextView
+            android:id="@+id/tvTenQuy_CL_DSQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/mauden"
+            android:gravity="left"
+            android:textStyle="normal"
+			android:layout_marginBottom="1dp"/>
+
+        <TextView
+            android:id="@+id/tvSoTien_CL_DSQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/mauden"
+            android:gravity="right"
+            android:textStyle="normal"/>
+
+    </LinearLayout>
+
+</LinearLayout>

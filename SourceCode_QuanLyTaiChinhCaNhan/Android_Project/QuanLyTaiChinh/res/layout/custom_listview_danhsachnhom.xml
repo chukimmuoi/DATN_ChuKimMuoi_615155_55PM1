@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="7dp"
+    android:layout_marginLeft="5dp" >
+
+     <ImageView
+        android:id="@+id/imgAnhNhom_DSN"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/anhnhom"
+        android:src="@drawable/ic_khonganh" />
+
+    <TextView
+        android:id="@+id/tvTenNhom_DSN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="5dp"
+        android:textSize="18sp"
+        android:textColor="@color/mauden"
+        android:textStyle="normal"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imgAnhNhom_DSN"/>
+</RelativeLayout>
